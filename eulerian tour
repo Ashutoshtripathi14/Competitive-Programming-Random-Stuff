@@ -1,0 +1,5 @@
+function FindTour(v)
+while v has a neighbor u do
+delete edge (v, u)
+FindTour(u) . FindTour(u) must trace a circuit back to v
+add v to tour
